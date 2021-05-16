@@ -1,0 +1,345 @@
+%!Adobe-FontList 1.22
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/imaferri/Dropbox/v6-Guia_Grafica_LaCasonadelZoilo Folder/Document fonts/AdobeFnt22.lst
+FileLength:7973
+FileModTime:619352082
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Arial-BoldMT
+FamilyName:Arial
+StyleName:Bold
+MenuName:Arial
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Arial Bold
+WritingScript:Roman
+OutlineFileName:/Users/imaferri/Dropbox/v6-Guia_Grafica_LaCasonadelZoilo Folder/Document fonts/Arial Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:750984
+FileModTime:576381465
+NameArray:0,Mac,4,Arial Bold
+NameArray:0,Win,1,Arial
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Arial-ItalicMT
+FamilyName:Arial
+StyleName:Italic
+MenuName:Arial
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Arial Italic
+WritingScript:Roman
+OutlineFileName:/Users/imaferri/Dropbox/v6-Guia_Grafica_LaCasonadelZoilo Folder/Document fonts/Arial Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:553284
+FileModTime:576381465
+NameArray:0,Mac,4,Arial Italic
+NameArray:0,Win,1,Arial
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ArialMT
+FamilyName:Arial
+StyleName:Regular
+MenuName:Arial
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Arial
+WritingScript:Roman
+OutlineFileName:/Users/imaferri/Dropbox/v6-Guia_Grafica_LaCasonadelZoilo Folder/Document fonts/Arial.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:773236
+FileModTime:576381465
+NameArray:0,Mac,4,Arial
+NameArray:0,Win,1,Arial
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Cherolina
+FamilyName:Cherolina
+StyleName:Regular
+MenuName:Cherolina
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Cherolina
+WritingScript:Roman
+OutlineFileName:/Users/imaferri/Dropbox/v6-Guia_Grafica_LaCasonadelZoilo Folder/Document fonts/Cherolina.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:92576
+FileModTime:607809126
+NameArray:0,Win,1,Cherolina
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HelveticaNeue
+FamilyName:Helvetica Neue
+StyleName:Regular
+MenuName:Helvetica Neue
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Helvetica Neue
+WritingScript:Roman
+OutlineFileName:/Users/imaferri/Dropbox/v6-Guia_Grafica_LaCasonadelZoilo Folder/Document fonts/HelveticaNeue.ttc
+TTCOffset:80
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:6625940
+FileModTime:576381465
+NameArray:0,Mac,4,Helvetica Neue
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:/Users/imaferri/Dropbox/v6-Guia_Grafica_LaCasonadelZoilo Folder/Document fonts/MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:614723296
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Montserrat-ExtraLight
+FamilyName:Montserrat
+StyleName:ExtraLight
+MenuName:Montserrat ExtraLight
+StyleBits:0
+WeightClass:275
+WidthClass:5
+AngleClass:0
+FullName:Montserrat ExtraLight
+WritingScript:Roman
+OutlineFileName:/Users/imaferri/Dropbox/v6-Guia_Grafica_LaCasonadelZoilo Folder/Document fonts/Montserrat-ExtraLight.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:88088
+FileModTime:529896816
+NameArray:0,Mac,4,Montserrat ExtraLight
+NameArray:0,Win,1,Montserrat ExtraLight
+NameArray:0,Win,16,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Montserrat-Regular
+FamilyName:Montserrat
+StyleName:Regular
+MenuName:Montserrat
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Montserrat Regular
+WritingScript:Roman
+OutlineFileName:/Users/imaferri/Dropbox/v6-Guia_Grafica_LaCasonadelZoilo Folder/Document fonts/Montserrat-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:93516
+FileModTime:529896816
+NameArray:0,Mac,4,Montserrat Regular
+NameArray:0,Win,1,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Poppins-Black
+FamilyName:Poppins Black
+StyleName:Regular
+MenuName:Poppins Black
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Poppins Black
+WritingScript:Roman
+OutlineFileName:/Users/imaferri/Dropbox/v6-Guia_Grafica_LaCasonadelZoilo Folder/Document fonts/Poppins-Black_0.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:137764
+FileModTime:454975200
+NameArray:0,Win,1,Poppins Black
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Poppins-Medium
+FamilyName:Poppins Medium
+StyleName:Regular
+MenuName:Poppins Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Poppins Medium
+WritingScript:Roman
+OutlineFileName:/Users/imaferri/Dropbox/v6-Guia_Grafica_LaCasonadelZoilo Folder/Document fonts/Poppins-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:142220
+FileModTime:454978800
+NameArray:0,Win,1,Poppins Medium
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-Bold
+FamilyName:Roboto Condensed
+StyleName:Bold
+MenuName:Roboto Condensed
+StyleBits:2
+WeightClass:700
+WidthClass:3
+AngleClass:0
+FullName:Roboto Condensed Bold
+WritingScript:Roman
+OutlineFileName:/Users/imaferri/Dropbox/v6-Guia_Grafica_LaCasonadelZoilo Folder/Document fonts/RobotoCondensed-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:141796
+FileModTime:531278034
+NameArray:0,Mac,18,Roboto Condensed Bold
+NameArray:0,Mac,4,Roboto Condensed Bold
+NameArray:0,Win,1,Roboto Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-Light
+FamilyName:Roboto Condensed
+StyleName:Light
+MenuName:Roboto Condensed Light
+StyleBits:0
+WeightClass:300
+WidthClass:3
+AngleClass:0
+FullName:Roboto Condensed Light
+WritingScript:Roman
+OutlineFileName:/Users/imaferri/Dropbox/v6-Guia_Grafica_LaCasonadelZoilo Folder/Document fonts/RobotoCondensed-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:141384
+FileModTime:531278034
+NameArray:0,Mac,18,Roboto Condensed Light
+NameArray:0,Mac,4,Roboto Condensed Light
+NameArray:0,Win,1,Roboto Condensed Light
+NameArray:0,Win,16,Roboto Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-Regular
+FamilyName:Roboto Condensed
+StyleName:Regular
+MenuName:Roboto Condensed
+StyleBits:0
+WeightClass:400
+WidthClass:3
+AngleClass:0
+FullName:Roboto Condensed Regular
+WritingScript:Roman
+OutlineFileName:/Users/imaferri/Dropbox/v6-Guia_Grafica_LaCasonadelZoilo Folder/Document fonts/RobotoCondensed-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:140396
+FileModTime:531278034
+NameArray:0,Mac,18,Roboto Condensed Regular
+NameArray:0,Mac,4,Roboto Condensed Regular
+NameArray:0,Win,1,Roboto Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SnellRoundhand
+FamilyName:Snell Roundhand
+StyleName:Regular
+MenuName:Snell Roundhand
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:1
+FullName:Snell Roundhand
+WritingScript:Roman
+OutlineFileName:/Users/imaferri/Dropbox/v6-Guia_Grafica_LaCasonadelZoilo Folder/Document fonts/SnellRoundhand.ttc
+TTCOffset:36
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:3599752
+FileModTime:576381465
+NameArray:0,Mac,4,Snell Roundhand
+NameArray:0,Win,1,Snell Roundhand
+%EndFont
+

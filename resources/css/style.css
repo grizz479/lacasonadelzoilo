@@ -1,0 +1,279 @@
+:root {
+    --verde_agua: #bacdc6;
+    --azul_cielo: #c2dafc;
+    --bosque: #c2c59c;
+    --tierra: #e0e0c4;
+    --teja: #9d4d3b;
+
+}
+
+@font-face {
+    font-family: 'Cherolina';
+    src: url('../fonts/Cherolina.otf');
+}
+
+@font-face {
+    font-family: 'Poppins Black';
+    src: url('../fonts/Poppins-Black_0.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins Medium';
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+
+header{
+    font-family: Poppins Medium;
+    display: inline-flex;
+    flex-flow: row;
+    justify-content:space-evenly;
+    height: auto;
+    margin: 20px 40px;
+    width: 90%;
+    
+}
+
+
+header img {
+      
+    height: 70px;
+    width: 60px;
+    
+}
+
+body {
+    font-family: Poppins Medium;
+    text-align: center;
+}
+
+h2 {
+    font-size: 26px;
+    padding: 20px;
+}
+
+h3 {
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+}
+
+.logo{
+    display: inline-flex;
+    /* flex-direction: row; */
+    /* align-items: right; */
+    justify-content: flex-start;
+    width: 30%;
+    text-align: center;
+    font-family: Poppins Medium;
+    font-size: 7px;
+    font-weight: 100;
+    letter-spacing: 0.4em;
+    text-align:center;
+            
+}
+.logo_text {
+    width: 200px;
+    text-align: center;
+    
+}
+
+.casona {
+    font-family: Cherolina;
+    font-size: 30px;
+    letter-spacing: 0.05em;
+}
+
+.navbar { 
+    /* align-self: center; */
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar li{
+    display: inline-flex;
+    flex-direction: row;
+    
+    
+}
+.navbar a{
+    
+        color: black;
+        font-weight: 100;
+        font-size: 12px;
+        letter-spacing: 1.3px;
+        text-decoration: none;
+        padding: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+         
+}
+
+.contacto {
+    
+    margin: 30px auto;
+}
+
+.contacto a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    
+}
+
+.foto_fachada {
+    /* background-image: url('../images/fachada.jpg'); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* width: 100%; */
+    /* min-height: 400px; */
+    /* height: 10rem; */
+    /* background-size:cover; */
+    /* background-position-y: -250px; */
+    /* image-rendering: optimizeQuality; */
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content:first baseline;
+    overflow:hidden;
+     
+    
+}
+
+.foto_fachada img {
+    margin-top: -220px;
+    margin-bottom: -200px;
+    max-height:800px;
+    
+    
+}
+.foto_fachada p {
+    font-family: Cherolina;
+    font-size: 3rem;
+    color: white;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    /* font-weight: bold; */
+    background-color: rgba(0,0,0,.75);
+    /* padding: 20px; */
+    
+        
+}
+
+#green_box {
+    height: 5em;
+    background-color: var(--verde_agua);
+}
+
+.higiene {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.descubre {
+    /* background-color: var(--tierra); */
+    text-align: center;
+    padding: 20px;
+}
+
+
+.descubre p{
+    padding-top:10px;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+}
+
+
+.tridente {
+     
+    background-color: black;
+    color: white;
+    width:100%;
+    padding: 20px 20px;
+    
+}
+
+.tridente ul {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.tridente li {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.tridente p {
+    /* padding-bottom: 20px; */
+}
+
+.N1 {
+    background-color: var(--bosque);
+    font-family: Cherolina;
+    border-radius: 50%;
+    text-align: center;
+    width: 4em;
+    height: 4em;
+    margin-bottom: 20px;
+    
+
+}
+
+.N1 p{
+    font-size: 40px;
+}
+
+.G1 {
+    background-color: var(--teja);
+}
+
+.T1 {
+    background-color: var(--azul_cielo);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .logo{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        
+}
+
+    .foto_fachada {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        flex-shrink: 4;
+    }
+
+    .foto_fachada img {
+        display: flex;
+        margin-right:40%;
+        max-width: 100%;
+    }
+    .foto_fachada p {
+        width: 100%;
+
+        
+        
+        
+    }
+
+}
