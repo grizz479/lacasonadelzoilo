@@ -55,11 +55,11 @@ h3 {
     padding-bottom: 10px;
 }
 
-p {
+/* p {
     font-size: 10px;
     letter-spacing: 0.2em;
     line-height: 1.5em;
-}
+} */
 
 .logo{
     display: inline-flex;
