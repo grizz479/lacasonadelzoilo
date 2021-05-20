@@ -24,9 +24,11 @@
 
 header{
     font-family: Poppins Medium;
-    display: inline-flex;
+    display: flex;
     flex-flow: row;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
+    align-items: center;
+
     height: auto;
     margin: 20px 40px;
     width: 90%;
@@ -115,7 +117,7 @@ h3 {
 
 .contacto {
     
-    margin: 30px auto;
+    margin-left: 10%;
 }
 
 .contacto a{
@@ -143,7 +145,6 @@ h3 {
     text-align: center;
     display: flex;
     flex-flow: column;
-    justify-content:first baseline;
     overflow:hidden;
      
     
@@ -201,7 +202,6 @@ h3 {
      
     background-color: black;
     color: white;
-    width:100%;
     padding: 20px 20px;
     
 }
@@ -211,69 +211,102 @@ h3 {
     display: inline-flex;
     justify-content: space-around;
     text-align: center;
-    
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 .tridente li {
     padding: 20px 20px;
-    text-align: center;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    
 }
 
 .tridente p {
-    /* padding-bottom: 20px; */
+    font-size: 10px;
 }
 
-.N1 {
-    background-color: var(--bosque);
+.tridente h4 {
     font-family: Cherolina;
+    font-size: 40px;
+}
+
+.circulo_cabecera {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--bosque);
     border-radius: 50%;
     text-align: center;
     width: 4em;
     height: 4em;
     margin-bottom: 20px;
-    
-
 }
 
-.N1 p{
-    font-size: 40px;
+#N1 {
+    background-color: var(--bosque);
 }
 
-.G1 {
+
+#G1 {
     background-color: var(--teja);
 }
 
-.T1 {
+#T1 {
     background-color: var(--azul_cielo);
 }
 
 
-@media only screen and (max-width: 600px) {
+
+
+@media screen and (max-width: 600px) {
+
+    header {
+    display: flex;
+    flex-flow: column;
+    align-items:center;
+    margin: 20px auto;
+    }
+
     .logo{
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         
-}
+    }
+
+    .contacto {
+    
+        margin-left: 0;
+    }
+
 
     .foto_fachada {
         display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        flex-shrink: 4;
+        /* flex-wrap: wrap; */
+        /* flex-direction: row; */
+        /* flex-shrink: 4; */
     }
 
     .foto_fachada img {
-        display: flex;
-        margin-right:40%;
+        display: block;
         max-width: 100%;
+        height: auto;
     }
     .foto_fachada p {
         width: 100%;
-
-        
-        
-        
     }
+
+ 
+    #tres_circulos {
+        flex-direction: column;
+    }
+    
 
 }
