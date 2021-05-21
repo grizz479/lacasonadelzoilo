@@ -48,13 +48,21 @@ body {
     text-align: center;
 }
 
+p {
+    font-size: 10px;
+}
+
 h2 {
-    font-size: 26px;
+    font-size: 20px;
     padding: 20px;
 }
 
 h3 {
     padding-bottom: 10px;
+}
+
+em {
+    font-style: italic;
 }
 
 /* p {
@@ -170,6 +178,8 @@ h3 {
         
 }
 
+
+
 #green_box {
     height: 5em;
     background-color: var(--verde_agua);
@@ -191,6 +201,8 @@ h3 {
 
 
 .descubre p{
+    width: 80%;
+    margin: auto;
     padding-top:10px;
     font-size: 10px;
     letter-spacing: 0.2em;
@@ -207,7 +219,7 @@ h3 {
 }
 
 .tridente ul {
-    width: 100%;
+    width: 70%;
     display: inline-flex;
     justify-content: space-around;
     text-align: center;
@@ -249,6 +261,7 @@ h3 {
     margin-bottom: 20px;
 }
 
+
 #N1 {
     background-color: var(--bosque);
 }
@@ -262,8 +275,59 @@ h3 {
     background-color: var(--azul_cielo);
 }
 
+.apartamentos {
+    width: 90%;
+    margin: 60px auto;
+}
+
+.apartamento {
+    margin: 40px auto;
+    display: flex;
+
+}
+
+.apartamento img{
+    width: 50%;
+    
+}
+
+.apartamento_texto {
+    margin: auto 40px;
+    text-align: left;
+    line-height: 1.5;
+    
+}
 
 
+.apartamento strong{
+    font-weight: bold;
+}
+.apartamento ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px auto;
+
+}
+
+.apartamento li{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    align-items: center;
+    margin: auto 10px;
+}
+
+.apartamento li img{
+    width: 50px;
+    height: auto;
+}
+
+.apartamento li p {
+    font-size: 8px;
+}
+
+/* Media-mobile rules */
 
 @media screen and (max-width: 600px) {
 
@@ -315,5 +379,28 @@ h3 {
         flex-direction: column;
     }
     
+    .apartamento{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #arenales {
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+    .apartamento img{
+        margin: 20px auto;
+    }
+
+    .apartamento h3{
+        text-align: center;
+    }
+
+    .apartamento p{
+        text-align: justify;
+    }
 
 }
