@@ -290,22 +290,24 @@ h3 {
 
     .foto_fachada {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        
+        
         overflow: hidden;
-        height: 19rem;
-        align-content: space-around;
-        align-items: center;
+        
+        
+        
     }
 
     .foto_fachada img {
-        display: block;
-        max-width: 100%;
-        height: auto;
+        margin-top: auto;
+        object-fit: cover;
+        object-position: 0 -85px;
+        
     }
+
     .foto_fachada p {
-        position: absolute;
-        margin-top: 50%;
+        /* position: absolute;
+        margin-top: 50%; */
     }
 
  
